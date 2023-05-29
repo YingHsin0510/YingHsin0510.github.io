@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>課堂作業13</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    <link type="text/css" rel="stylesheet" href="css/skitter.styles.css"/>
+    <style>
+        .box_skitter_large {
+            width: 1500px;
+            height:1000px;
+        }
+
+        body {
+            background-color: #000000;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //$('.box_skitter_large').skitter();
+            $('.box_skitter_large').skitter({hideTools: true});
+            //$('.box_skitter_large').skitter({thumbs: true, label: true});
+            //$('.box_skitter_large').skitter({navigation: true, dots: false});
+        });
+    </script>
+
+</head>
+<body>
+<div class="border_box">
+    <div class="box_skitter box_skitter_large">
+        <ul>
+            <li>
+                <img src="images/01.jpg" class="cubeShow">
+                <div class="label_text">
+                    <p>是大學4年!!!!!</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/02.jpg" class="glassCube">
+                <div class="label_text">
+                    <p>新生健康檢查的時候</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/03.jpg" class="cubeJelly">
+                <div class="label_text">
+                    <p>大一就是瘋狂拍照的年紀</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/04.jpg" class="directionRight">
+                <div class="label_text">
+                    <p>一起去動物園看熊貓</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/05.jpg" class="paralell">
+                <div class="label_text">
+                    <p>排隊搭纜車</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/06.jpg" class="upBars">
+                <div class="label_text">
+                    <p>B3練舞!!!!很累但很好玩</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/07.jpg" class="circles">
+                <div class="label_text">
+                    <p>一起去東區逛街</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/08.jpg" class="fade">
+                <div class="label_text">
+                    <p>不正經拍照</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/09.jpg" class="circlesInside">
+                <div class="label_text">
+                    <p>自拍自拍!</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/10.jpg" class="glassBlock">
+                <div class="label_text">
+                    <p>輪到我們要畢業啦!</p>
+                </div>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+</body>
+</html>
