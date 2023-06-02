@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>課堂作業13</title>
+  <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+  <link type="text/css" rel="stylesheet" href="css/skitter.styles.css"/>
+  <style>
+        .box_skitter_large {
+            width: 1500px;
+            height: 1000px;
+        }
+
+        body {
+            background-color: #000000;
+        }
+    </style>
+  <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+  <script type="text/javascript">
+        $(function () {
+            //$('.box_skitter_large').skitter();
+            $('.box_skitter_large').skitter({hideTools: true});
+            //$('.box_skitter_large').skitter({thumbs: true, label: true});
+            //$('.box_skitter_large').skitter({navigation: true, dots: false});
+        });
+    </script>
+
+</head>
+<body>
+<div class="border_box">
+  <div class="box_skitter box_skitter_large">
+    <ul>
+      <li>
+        <img src="images/01.jpg" class="cubeShow">
+        <div class="label_text">
+          <p>畢業快樂朋友們</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/02.JPG" class="glassCube">
+        <div class="label_text">
+          <p>大學四年一起去過很多地方</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/03.JPG" class="cubeJelly">
+        <div class="label_text">
+          <p>也一起拍過很多照片</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/04.JPG" class="directionRight">
+        <div class="label_text">
+          <p>即使吵架了也一定會趕快和好</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/05.JPG" class="paralell">
+        <div class="label_text">
+          <p>(學校真的很漂亮)</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/06.jpg" class="upBars">
+        <div class="label_text">
+          <p>我們也會一起搞怪</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/07.jpg" class="circles">
+        <div class="label_text">
+          <p>有時也不太正經</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/08.JPG" class="fade">
+        <div class="label_text">
+          <p>平時也喜歡偷拍彼此</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/09.JPG" class="circlesInside">
+        <div class="label_text">
+          <p>但也因為這樣留下很多回憶呢</p>
+        </div>
+      </li>
+
+      <li>
+        <img src="images/10.JPG" class="glassBlock">
+        <div class="label_text">
+          <p>大家畢業快樂!</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
